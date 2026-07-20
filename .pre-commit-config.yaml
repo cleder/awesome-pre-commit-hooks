@@ -13,7 +13,7 @@ repos:
 - hooks:
   - id: rumdl-fmt
   repo: https://github.com/rvben/rumdl-pre-commit
-  rev: v0.2.0
+  rev: v0.2.37
 - hooks:
   - id: typos
   repo: https://github.com/crate-ci/typos
