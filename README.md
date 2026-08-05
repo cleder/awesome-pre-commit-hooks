@@ -25,6 +25,7 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
   - [📓 Jupyter Notebooks (`nb`)](#-jupyter-notebooks-nb)
   - [📦 Protocol Buffers (`proto`)](#-protocol-buffers-proto)
   - [🐍 Python (`py`)](#-python-py)
+  - [🐍 Cython (`pyx`)](#-cython-pyx)
   - [📊 R (`r`)](#-r-r)
   - [💎 Ruby (`rb`)](#-ruby-rb)
   - [🦀 Rust (`rs`)](#-rust-rs)
@@ -32,6 +33,7 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
   - [🐚 Shell / Bash (`sh`)](#-shell--bash-sh)
   - [🗄️ SQL (`sql`)](#-sql-sql)
   - [🐦 Swift (`swift`)](#-swift-swift)
+  - [📖 LaTeX (`tex`)](#-latex-tex)
   - [🏗️ Terraform (`tf`)](#-terraform-tf)
   - [🔧 TOML (`toml`)](#-toml-toml)
   - [🔷 TypeScript (`ts`)](#-typescript-ts)
@@ -146,6 +148,7 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 - 🕰️ [bandit](https://github.com/PyCQA/bandit) — Bandit is a tool designed to find common security issues in Python code.
 - 🕰️ [black-pre-commit-mirror](https://github.com/psf/black-pre-commit-mirror)
 - [blacken-docs](https://github.com/adamchainz/blacken-docs) — Run `black` on python code blocks in documentation files
+- ⚗️ [check_all](https://github.com/fzimmermann89/check_all) — Pre-commit hook to check if __all__ is populated correctly in __init__.py
 - [complexipy-pre-commit](https://github.com/rohaquinlop/complexipy-pre-commit) — A pre-commit hook for complexipy.
 - [deptry.git](https://github.com/osprey-oss/deptry.git)
 - 🕰️ [docformatter](https://github.com/PyCQA/docformatter) — Formats docstrings to follow PEP 257
@@ -153,6 +156,7 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 - 🕰️ [interrogate](https://github.com/econchick/interrogate) — Explain yourself!
   Interrogate a codebase for docstring coverage.
 - 🕰️ [isort](https://github.com/PyCQA/isort) — A Python utility / library to sort imports.
+- [matchify](https://github.com/15r10nk/matchify) — converts if-else code to match statements
 - 🕰️ [mirrors-mypy](https://github.com/pre-commit/mirrors-mypy) — Mirror of mypy for pre-commit
 - 🕰️ [numpydoc](https://github.com/numpy/numpydoc) — Numpy's Sphinx extensions
 - [pyprojectsort](https://github.com/kieran-ryan/pyprojectsort) — Formatter for pyproject.toml files
@@ -163,8 +167,13 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 - [ruff-pre-commit](https://github.com/astral-sh/ruff-pre-commit) — A pre-commit hook for Ruff.
 - [safelint](https://github.com/shelkesays/safelint) — SafeLint enforces safety-critical coding practices inspired by Gerard J. Holzmann’s “Power of Ten” rules, adapted for modern AI-assisted software development.
 - [ty-pre-commit](https://github.com/astral-sh/ty-pre-commit) — A pre-commit hook for ty.
+- [unexport](https://github.com/hakancelikdev/unexport) — :eight_spoked_asterisk: Unexport is a linter that tries to keep the __all__ in your Python modules always up to date.
 - [uv-pre-commit](https://github.com/astral-sh/uv-pre-commit)
 - [validate-pyproject](https://github.com/abravalheri/validate-pyproject) — Validation library for simple check on `pyproject.toml`
+
+### 🐍 Cython (`pyx`)
+
+- [cython-lint](https://github.com/MarcoGorelli/cython-lint) — Lint Cython files
 
 ### 📊 R (`r`)
 
@@ -198,6 +207,11 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 
 - [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) — A command-line tool and Xcode Extension for formatting Swift code
 - [SwiftLint](https://github.com/realm/SwiftLint) — A tool to enforce Swift style and conventions.
+
+### 📖 LaTeX (`tex`)
+
+- [latexindent.pl.git](https://github.com/cmhughes/latexindent.pl.git)
+- [tex-fmt](https://github.com/WGUNDERWOOD/tex-fmt) — An extremely fast LaTeX formatter written in Rust
 
 ### 🏗️ Terraform (`tf`)
 
@@ -279,7 +293,7 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 
 > Recommended language(s): js, ts, css.
 
-- **local**
+- __local__
 
 ### 📚 Sphinx Documentation (`sphinx`)
 
