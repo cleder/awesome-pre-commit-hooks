@@ -46,6 +46,7 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
   - [☸️ Kubernetes (`k8s`)](#-kubernetes-k8s)
   - [🧭 Nika AI Workflow Auditing (`nika`)](#-nika-ai-workflow-auditing-nika)
   - [⚛️ React (`react`)](#-react-react)
+  - [🧩 Agent Skills (`skill`)](#-agent-skills-skill)
   - [📚 Sphinx Documentation (`sphinx`)](#-sphinx-documentation-sphinx)
 
 ---
@@ -294,6 +295,10 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 > Recommended language(s): js, ts, css.
 
 - __local__
+
+### 🧩 Agent Skills (`skill`)
+
+- [skilllint](https://github.com/bitflight-devops/skilllint) — The best platform agnostic Linter for AI agent plugins and skills — validates structure, frontmatter, and token limits for Claude Code, Cursor, Codex, and many others!
 
 ### 📚 Sphinx Documentation (`sphinx`)
 
