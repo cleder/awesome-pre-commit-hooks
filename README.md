@@ -223,6 +223,7 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 
 - [taplo-pre-commit](https://github.com/ComPWA/taplo-pre-commit) — A pre-commit hook for Taplo, a TOML formatter written in Rust
 - [tombi-pre-commit](https://github.com/tombi-toml/tombi-pre-commit) — A pre-commit hook for Tombi.
+- [toml-tidy](https://github.com/AndrewDongminYoo/toml-tidy) — Sort TOML keys without changing table hierarchy.
 
 ### 🔷 TypeScript (`ts`)
 
@@ -262,8 +263,9 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 - [django-codemod](https://github.com/browniebroke/django-codemod) — A tool to automatically fix Django deprecations.
 - [django-upgrade](https://github.com/adamchainz/django-upgrade) — Automatically upgrade your Django projects.
 - [django-urlconfchecks](https://github.com/AliSayyah/django-urlconfchecks) — A package for type-checking the URLs and associated views for Django
-- [djLint](https://github.com/djlint/djLint) — ✨ HTML Template Linter and Formatter.
-  Django, Jinja, Askama, Tera, Liquid, Nunjucks, Twig, Handlebars, Mustache, GoLang, Angular
+- [djLint](https://github.com/djlint/djLint) — HTML template formatter and linter for Django, Jinja, Twig, Nunjucks, Handlebars, Liquid, Go templates, Mustache, Tera, Askama and Angular.
+  Formats markup and template syntax together, and lints for accessibility, correctness and style.
+  CLI, pre-commit hook and VS Code extension.
 - [pre-commit-hooks-django](https://github.com/ecugol/pre-commit-hooks-django) — Some useful hooks for Django development
 - [pytest-mrt](https://github.com/croc100/pytest-mrt) — Catch database migration rollback failures before they reach production
 
