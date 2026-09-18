@@ -174,6 +174,7 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 - [unexport](https://github.com/hakancelikdev/unexport) — :eight_spoked_asterisk: Unexport is a linter that tries to keep the __all__ in your Python modules always up to date.
 - [uv-pre-commit](https://github.com/astral-sh/uv-pre-commit)
 - [validate-pyproject](https://github.com/abravalheri/validate-pyproject) — Validation library for simple check on `pyproject.toml`
+- [zuban-pre-commit](https://github.com/zubanls/zuban-pre-commit) — pre-commit hooks for Zuban
 
 ### 🐍 Cython (`pyx`)
 
