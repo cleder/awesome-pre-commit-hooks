@@ -56,8 +56,7 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 - [codespell](https://github.com/codespell-project/codespell) — check code for common misspellings
 - [detect-secrets](https://github.com/Yelp/detect-secrets) — An enterprise friendly way of detecting and preventing secrets in code.
 - [gitleaks](https://github.com/gitleaks/gitleaks) — Find secrets with Gitleaks 🔑
-- [jscpd](https://github.com/kucherenko/jscpd) — Copy/paste detector for programming source code, supports 223 formats.
-  AI-ready with token-efficient reporter, skill and MCP server.
+- [jscpd](https://github.com/kucherenko/jscpd) — Copy/paste detector for source code. 220+ languages, Rust engine, SARIF/HTML/badge reporters, GitHub Action, MCP server for AI agents.
 - [lychee](https://github.com/lycheeverse/lychee) — ⚡ Fast, async, stream-based link checker written in Rust.
   Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more!
 - [pre-commit-hooks](https://github.com/pre-commit/pre-commit-hooks) — Some out-of-the-box hooks for pre-commit
@@ -154,6 +153,7 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 - [deptry.git](https://github.com/osprey-oss/deptry.git)
 - 🕰️ [docformatter](https://github.com/PyCQA/docformatter) — Formats docstrings to follow PEP 257
 - 🕰️ [flake8](https://github.com/PyCQA/flake8) — flake8 is a python tool that glues together pycodestyle, pyflakes, mccabe, and third-party plugins to check the style and quality of some python code.
+- [ImpactGate](https://github.com/officefloor/ImpactGate) — Code review via the change impact measure
 - 🕰️ [interrogate](https://github.com/econchick/interrogate) — Explain yourself!
   Interrogate a codebase for docstring coverage.
 - 🕰️ [isort](https://github.com/PyCQA/isort) — A Python utility / library to sort imports.
@@ -223,7 +223,7 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 
 - [taplo-pre-commit](https://github.com/ComPWA/taplo-pre-commit) — A pre-commit hook for Taplo, a TOML formatter written in Rust
 - [tombi-pre-commit](https://github.com/tombi-toml/tombi-pre-commit) — A pre-commit hook for Tombi.
-- [toml-tidy](https://github.com/AndrewDongminYoo/toml-tidy) — Sort TOML keys without changing table hierarchy.
+- [toml-tidy](https://github.com/AndrewDongminYoo/toml-tidy) — Sort TOML keys while preserving table hierarchy and source formatting where tomlkit supports it.
 
 ### 🔷 TypeScript (`ts`)
 
@@ -300,6 +300,8 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 
 ### 🧩 Agent Skills (`skill`)
 
+- [lintlang](https://github.com/hermes-labs-ai/lintlang) — Static analysis for AI agent configs, tool descriptions, and system prompts — catches vague tool descriptions, missing stop conditions, and schema gaps before they reach runtime.
+  Zero-LLM, deterministic checks, built for CI.
 - [skilllint](https://github.com/bitflight-devops/skilllint) — The best platform agnostic Linter for AI agent plugins and skills — validates structure, frontmatter, and token limits for Claude Code, Cursor, Codex, and many others!
 
 ### 📚 Sphinx Documentation (`sphinx`)
