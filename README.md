@@ -154,6 +154,7 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 - ⚗️ [check_all](https://github.com/fzimmermann89/check_all) — Pre-commit hook to check if __all__ is populated correctly in __init__.py
 - [complexipy-pre-commit](https://github.com/rohaquinlop/complexipy-pre-commit) — A pre-commit hook for complexipy.
 - [deptry.git](https://github.com/osprey-oss/deptry.git)
+- ⚗️ [docfmt](https://github.com/mm21/docfmt) — Reliable docstring formatter: AST-located, surgically spliced, self-verifying
 - 🕰️ [docformatter](https://github.com/PyCQA/docformatter) — Formats docstrings to follow PEP 257
 - 🕰️ [flake8](https://github.com/PyCQA/flake8) — flake8 is a python tool that glues together pycodestyle, pyflakes, mccabe, and third-party plugins to check the style and quality of some python code.
 - [ImpactGate](https://github.com/officefloor/ImpactGate) — Code review via the change impact measure
@@ -206,6 +207,7 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 ### 🗄️ SQL (`sql`)
 
 - [sqlfluff](https://github.com/sqlfluff/sqlfluff) — A modular SQL linter and auto-formatter with support for multiple dialects and templated code.
+- [sqlfmt](https://github.com/tconbeer/sqlfmt) — sqlfmt formats your dbt SQL files so you don't have to
 - [squawk](https://github.com/sbdchd/squawk) — 🐘 Linter for Postgres migrations & SQL
 
 ### 🐦 Swift (`swift`)
@@ -268,7 +270,7 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 - [django-codemod](https://github.com/browniebroke/django-codemod) — A tool to automatically fix Django deprecations.
 - [django-upgrade](https://github.com/adamchainz/django-upgrade) — Automatically upgrade your Django projects.
 - [django-urlconfchecks](https://github.com/AliSayyah/django-urlconfchecks) — A package for type-checking the URLs and associated views for Django
-- [djLint](https://github.com/djlint/djLint) — HTML template formatter and linter for Django, Jinja, Twig, Nunjucks, Handlebars, Liquid, Go templates, Mustache, Tera, Askama and Angular.
+- [djLint](https://github.com/djlint/djLint) — HTML template formatter and linter for Django, Jinja, Twig, Nunjucks, Handlebars, Mustache, Liquid, Go templates, Angular, Tera, Askama and Mako.
   Formats markup and template syntax together, and lints for accessibility, correctness and style.
   CLI, pre-commit hook and VS Code extension.
 - [pre-commit-hooks-django](https://github.com/ecugol/pre-commit-hooks-django) — Some useful hooks for Django development
@@ -278,7 +280,7 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 
 - [actionlint](https://github.com/rhysd/actionlint) — :octocat: Static checker for GitHub Actions workflow files
 - [check-jsonschema](https://github.com/python-jsonschema/check-jsonschema) — A CLI and set of pre-commit hooks for jsonschema validation with built-in support for GitHub Workflows, Renovate, Azure Pipelines, and more!
-- [commit-check](https://github.com/commit-check/commit-check) — Commit Check enforces commit metadata standards — commit messages, branch naming, committer info, signoff, and more.
+- [commit-check](https://github.com/commit-check/commit-check) — Commit policy as code for teams and AI agents: commit messages, branch names, authors, sign-offs, tags, files and AI attribution, checked from one config file.
 - [commitizen](https://github.com/commitizen-tools/commitizen) — Create committing rules for projects :rocket: auto bump versions :arrow_up: and auto changelog generation :open_file_folder:
 - [gitlint](https://github.com/jorisroovers/gitlint) — Linting for your git commit messages
 - ⚗️ [no-ai-marks](https://github.com/mishan/no-ai-marks) — CI check that fails on AI attribution and hidden Unicode watermarks in commits, PRs, branches, and files.
@@ -294,9 +296,10 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 
 ### 🧭 Nika AI Workflow Auditing (`nika`)
 
-- [nika](https://github.com/supernovae-st/nika) — Intent as Code | the workflow language for AI.
-  One file, 4 verbs, one Rust binary.
-  Local-first, any model, AGPL-3.0. 🦋
+- [nika](https://github.com/supernovae-st/nika) — Intent as Code: say what you want done, keep it as a file.
+  Checked before it runs, run with the model you choose, proven afterwards.
+  Rust engine, CLI/TUI and TypeScript SDK.
+  AGPL-3.0 🦋
 
 ### ⚛️ React (`react`)
 
@@ -309,6 +312,7 @@ Hooks are included by default unless marked otherwise: 🕰️ legacy (supersede
 - [lintlang](https://github.com/hermes-labs-ai/lintlang) — Static analysis for AI agent configs, tool descriptions, and system prompts — catches vague tool descriptions, missing stop conditions, and schema gaps before they reach runtime.
   Zero-LLM, deterministic checks, built for CI.
 - [skilllint](https://github.com/bitflight-devops/skilllint) — The best platform agnostic Linter for AI agent plugins and skills — validates structure, frontmatter, and token limits for Claude Code, Cursor, Codex, and many others!
+- [slop-mop](https://github.com/ScienceIsNeato/slop-mop) — forcing agentic coder's path of least resistance through long-term maintainable codepaths
 
 ### 📚 Sphinx Documentation (`sphinx`)
 
